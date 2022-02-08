@@ -1,0 +1,166 @@
+/*NONULLĒŠANA*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Oxygen", sans-serif;
+}
+
+.icons{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/** HEADER **/
+
+#avatar {
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+  background-size: contain;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.info-block {
+  background-color: coral;
+  margin: 5px;
+  padding:5px 10px 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#personal-info {
+  margin: 10px;
+  display: inline-block;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+#net{
+ 
+float: right;
+padding-top: 20px;
+padding-right: 20px;
+
+
+}
+/** END OF HEADER**/
+
+/** MAIN CONTENT**/
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+  padding:5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+.row{
+  padding-bottom: 10px;
+ 
+}
+
+.row :first-child{
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.row>div {
+  padding-bottom: 10px;
+}
+/** END OF MAIN CONTENT**/
+
+/** FOOTER **/
+footer {
+  color: green;
+}
+
+/** END OF FOOTER **/
