@@ -54,7 +54,9 @@ export const work = [
   }
 ];
 
-export const courses = [
+export const courses = [["Pending", "Full-Stack Web Development with React Specialization", "The Hong Kong University of Science and Technology"],
+["Pending", "Python for Everybody Specialization", "University of Michigan"],
+["Pending", "Google Data Analytics Professional Certificate", "Google"],
   ["2022", "HTML, CSS, and Javascript for Web Developers", "Johns Hopkins University"],
   ["2021", "Microsoft Power BI", "Datorzinību centrs SIA"],
   ["2019", "Development trends of information and communication technologies", "Accenture"],

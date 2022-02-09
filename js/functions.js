@@ -2,7 +2,7 @@ function education(block) {
   return `
   <div class = "row">
               <div class = "col-lg-2">${block.period}</div>
-              <div class = "col-lg-2">${block.university}</div>
+              <div class = "col-lg-2">${block.university.toUpperCase()}</div>
               <div class = "col-lg-2">${block.speciality}</div>
               <div class = "col-lg-6">${block.programm}</div>  
           </div>
@@ -12,7 +12,7 @@ function work(block) {
   return `
   <div class = "row">
   <div class = "col-lg-2">${block.period}</div>
-  <div class = "col-lg-2">${block.employer}</div>
+  <div class = "col-lg-2">${block.employer.toUpperCase()}</div>
   <div class = "col-lg-2">${block.position}</div>
   <div class = " col-lg-6 visible-md visible-lg visible-xl">${block.duties}</div>  
 </div>`
