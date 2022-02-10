@@ -17,6 +17,7 @@ function work(block) {
   <div class = " col-lg-6 visible-md visible-lg visible-xl">${block.duties}</div>  
 </div>`
 }
+
 function courses(block) {
     return `
       <div class="row">
@@ -34,7 +35,13 @@ function social(block) {
 </div>`
 }
 
-
+function programLang(block) {
+  return `
+        <div class="row">
+           <img scr="${block.value}"/>
+        </div>
+          `;
+}
 
 
 
@@ -50,5 +57,6 @@ export const templates = {
   work: work,
   courses: courses,
   social: social,
+  programLang:programLang,
   language: language,
 };

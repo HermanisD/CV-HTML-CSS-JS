@@ -1,4 +1,4 @@
-import {education, work, courses, interests, social, languages} from "./model.js"
+import {education, work, courses, interests, social, languages, programLang} from "./model.js"
 import {templates} from "./functions.js"
 
 
@@ -44,6 +44,16 @@ if(toHTML){
 }});
 
 //Array insert in HTML
+const $site6 = document.querySelector("#programLang");
+
+const toHTML2 = programLang.join(", ");
+console.log($site6);
+if(toHTML2){
+  $site6.insertAdjacentHTML("beforeend", toHTML2);
+};
+
+
+
 const $site2 = document.querySelector("#interests");
 
 const toHTML = interests.join(", ");

@@ -85,6 +85,8 @@ export const social = [{period:"2010 - 2011", activity: "Member of The Board of 
 {period: "2009 - 2010", activity: "Founder of Ikšķile county's political party APVIENĪBA IEDZĪVOTĀJI"},
 {period: "2008", activity: "Founder of Society of Ikšķile county „Iedzīvotāji”"}];
 
+export const programLang =["HTML", "CSS", "JavaScript", "Bootstrap", "SQL"]
+
 
 
 export const interests = ["Scientifific and philosophical literature", "Squash", "Table tennis", "Hiking", "Cycling"];
