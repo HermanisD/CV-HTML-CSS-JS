@@ -129,9 +129,13 @@ min-height: 500px;
 float: right;
 padding-top: 20px;
 padding-right: 20px;
-
-
 }
+.nav-pills>li.active>a{
+background-color: coral !important;
+}
+
+
+
 ul{
   list-style-type: none;
 }
