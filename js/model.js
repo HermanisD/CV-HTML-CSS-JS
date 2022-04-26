@@ -54,7 +54,7 @@ export const work = [
   }
 ];
 
-export const courses = [["Pending", "Google IT Automation with Pyton Professional Certificate", "Google"],
+export const courses = [["Pending", "Google IT Automation with Python Professional Certificate", "Google"],
   ["Pending", "Full-Stack Web Development with React Specialization", "The Hong Kong University of Science and Technology"],
 ["Pending", "Python for Everybody Specialization", "University of Michigan"],
 ["2022", "Front-End Web Development with React Specialization", "The Hong Kong University of Science and Technology"],
